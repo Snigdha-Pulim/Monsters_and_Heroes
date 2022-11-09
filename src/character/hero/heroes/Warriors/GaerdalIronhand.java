@@ -4,7 +4,7 @@ import character.hero.Hero;
 import character.hero.levelUpBehaviour.WarriorLevelUp;
 
 public class GaerdalIronhand extends Hero {
-    GaerdalIronhand() {
+    public GaerdalIronhand() {
         levelUpBehaviour = new WarriorLevelUp(this);
         name = "Gaerdal_Ironhand";
         MP = 100;

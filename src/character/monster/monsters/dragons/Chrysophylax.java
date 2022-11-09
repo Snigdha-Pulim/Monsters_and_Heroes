@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Dragons;
 
 public class Chrysophylax extends Monster {
-    public Chrysophylax(int level) {
+    public Chrysophylax() {
         super(2);
         name = "Chrysophylax";
         base_damage = 200;

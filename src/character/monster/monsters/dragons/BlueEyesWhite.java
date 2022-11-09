@@ -5,7 +5,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Dragons;
 
 public class BlueEyesWhite extends Monster {
-    public BlueEyesWhite(int level) {
+    public BlueEyesWhite() {
         super(9);
         name = "BlueEyesWhite";
         base_damage = 900;

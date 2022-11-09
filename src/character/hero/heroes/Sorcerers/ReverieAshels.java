@@ -4,7 +4,7 @@ import character.hero.Hero;
 import character.hero.levelUpBehaviour.SorcererLevelUp;
 
 public class ReverieAshels extends Hero {
-    ReverieAshels(){
+    public ReverieAshels(){
         levelUpBehaviour=new SorcererLevelUp(this);
         name="Reverie_Ashels";
         MP=900;

@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Dragons;
 
 public class DMaleficent extends Monster {
-    public DMaleficent(int level) {
+    public DMaleficent() {
         super(9);
         name = "D-Maleficent";
         base_damage = 900;

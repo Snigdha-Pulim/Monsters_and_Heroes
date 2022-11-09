@@ -4,7 +4,7 @@ import character.hero.Hero;
 import character.hero.levelUpBehaviour.PaladinLevelUp;
 
 public class SkoraeusStonebones extends Hero {
-    SkoraeusStonebones(){
+    public SkoraeusStonebones(){
         levelUpBehaviour=new PaladinLevelUp(this);
         name="Skoraeus_Stonebones";
         MP=250;

@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Dragons;
 
 public class KasEthelinh extends Monster {
-    public KasEthelinh(int level) {
+    public KasEthelinh() {
         super(5);
         name = "Kas-Ethelinh";
         base_damage = 600;

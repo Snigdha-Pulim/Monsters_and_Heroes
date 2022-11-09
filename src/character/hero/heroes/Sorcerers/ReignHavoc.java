@@ -4,7 +4,7 @@ import character.hero.Hero;
 import character.hero.levelUpBehaviour.SorcererLevelUp;
 
 public class ReignHavoc extends Hero {
-    ReignHavoc(){
+    public ReignHavoc(){
         levelUpBehaviour=new SorcererLevelUp(this);
         name="Reign_Havoc";
         MP=800;

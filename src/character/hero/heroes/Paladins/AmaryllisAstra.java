@@ -4,7 +4,7 @@ import character.hero.Hero;
 import character.hero.levelUpBehaviour.PaladinLevelUp;
 
 public class AmaryllisAstra extends Hero {
-    AmaryllisAstra() {
+    public AmaryllisAstra() {
         levelUpBehaviour = new PaladinLevelUp(this);
         name = "Amaryllis_Astra";
         MP = 500;

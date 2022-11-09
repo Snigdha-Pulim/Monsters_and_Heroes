@@ -4,7 +4,7 @@ import character.hero.Hero;
 import character.hero.levelUpBehaviour.SorcererLevelUp;
 
 public class SkyeSoar extends Hero {
-    SkyeSoar(){
+    public SkyeSoar(){
         levelUpBehaviour=new SorcererLevelUp(this);
         name="Skye_Soar";
         MP=1000;

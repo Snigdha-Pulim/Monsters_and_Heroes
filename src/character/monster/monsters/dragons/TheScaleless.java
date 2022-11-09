@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Dragons;
 
 public class TheScaleless extends Monster {
-    public TheScaleless(int level) {
+    public TheScaleless() {
         super(7);
         name = "TheScaleless";
         base_damage = 700;

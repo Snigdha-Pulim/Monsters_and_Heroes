@@ -4,7 +4,7 @@ import character.hero.Hero;
 import character.hero.levelUpBehaviour.WarriorLevelUp;
 
 public class UndefeatedYoj extends Hero {
-    UndefeatedYoj() {
+    public UndefeatedYoj() {
         levelUpBehaviour = new WarriorLevelUp(this);
         name = "Undefeated_Yoj";
         MP = 400;

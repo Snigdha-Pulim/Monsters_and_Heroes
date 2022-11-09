@@ -4,7 +4,7 @@ import character.hero.Hero;
 import character.hero.levelUpBehaviour.WarriorLevelUp;
 
 public class FlandalSteelskin extends Hero {
-    FlandalSteelskin() {
+    public FlandalSteelskin() {
         levelUpBehaviour = new WarriorLevelUp(this);
         name = "Flandal_Steelskin";
         MP = 200;

@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Spirits;
 
 public class Andromalius extends Monster {
-    public Andromalius(int level) {
+    public Andromalius() {
         super(3);
         name = "Andromalius";
         base_damage = 550;

@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Dragons;
 
 public class TheWeatherbe extends Monster {
-    public TheWeatherbe(int level) {
+    public TheWeatherbe() {
         super(8);
         name = "TheWeatherbe";
         base_damage = 800;

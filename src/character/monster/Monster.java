@@ -15,6 +15,10 @@ public class Monster extends Character {
         attack=new AttackWithOutWeapon();
     }
 
+    public int getLevel(){
+        return level;
+    }
+
     public void attributeToIncrease(Monster monster){
         favoredAttribute.attributeToIncrease(monster);
     };

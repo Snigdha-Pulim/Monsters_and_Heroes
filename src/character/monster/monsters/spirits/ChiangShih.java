@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Spirits;
 
 public class ChiangShih extends Monster {
-    public ChiangShih(int level) {
+    public ChiangShih() {
         super(4);
         name = "Chiang-shih";
         base_damage = 700;

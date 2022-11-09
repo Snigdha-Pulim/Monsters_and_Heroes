@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Dragons;
 
 public class Alexstraszan extends Monster {
-    public Alexstraszan(int level) {
+    public Alexstraszan() {
         super(10);
         name = "Alexstraszan";
         base_damage = 1000;

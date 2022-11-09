@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Exoskeletons;
 
 public class Chronepsish extends Monster {
-    public Chronepsish(int level) {
+    public Chronepsish() {
         super(6);
         name = "Chronepsish";
         base_damage = 650;

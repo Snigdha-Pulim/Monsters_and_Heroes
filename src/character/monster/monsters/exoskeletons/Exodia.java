@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Exoskeletons;
 
 public class Exodia extends Monster {
-    public Exodia(int level) {
+    public Exodia() {
         super(10);
         name = "Exodia";
         base_damage = 1000;

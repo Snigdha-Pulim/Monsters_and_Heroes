@@ -4,7 +4,7 @@ import character.hero.Hero;
 import character.hero.levelUpBehaviour.PaladinLevelUp;
 
 public class Parzival extends Hero {
-    Parzival(){
+    public Parzival(){
         levelUpBehaviour=new PaladinLevelUp(this);
         name="Parzival";
         MP=300;

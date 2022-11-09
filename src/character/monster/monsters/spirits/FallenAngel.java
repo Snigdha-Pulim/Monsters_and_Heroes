@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Spirits;
 
 public class FallenAngel extends Monster {
-    public FallenAngel(int level) {
+    public FallenAngel() {
         super(5);
         name = "FallenAngel";
         base_damage = 800;

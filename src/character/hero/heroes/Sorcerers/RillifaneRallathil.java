@@ -4,7 +4,7 @@ import character.hero.Hero;
 import character.hero.levelUpBehaviour.SorcererLevelUp;
 
 public class RillifaneRallathil extends Hero {
-    RillifaneRallathil(){
+    public RillifaneRallathil(){
         levelUpBehaviour=new SorcererLevelUp(this);
         name="Rillifane_Rallathil";
         MP=1300;

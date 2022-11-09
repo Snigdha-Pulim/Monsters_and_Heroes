@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Spirits;
 
 public class Melchiresas extends Monster {
-    public Melchiresas(int level) {
+    public Melchiresas() {
         super(7);
         name = "Melchiresas";
         base_damage = 350;

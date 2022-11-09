@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Dragons;
 
 public class BunsenBurner extends Monster {
-    public BunsenBurner(int level) {
+    public BunsenBurner() {
         super(4);
         name = "BunsenBurner";
         base_damage = 400;

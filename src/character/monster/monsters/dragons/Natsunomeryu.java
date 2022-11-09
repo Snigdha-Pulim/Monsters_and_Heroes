@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Dragons;
 
 public class Natsunomeryu extends Monster {
-    public Natsunomeryu(int level) {
+    public Natsunomeryu() {
         super(1);
         name = "Natsunomeryu";
         base_damage = 100;

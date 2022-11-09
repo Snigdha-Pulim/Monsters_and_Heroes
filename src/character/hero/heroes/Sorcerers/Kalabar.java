@@ -4,7 +4,7 @@ import character.hero.Hero;
 import character.hero.levelUpBehaviour.SorcererLevelUp;
 
 public class Kalabar extends Hero {
-    Kalabar(){
+    public Kalabar(){
         levelUpBehaviour=new SorcererLevelUp(this);
         name="Kalabar";
         MP=800;

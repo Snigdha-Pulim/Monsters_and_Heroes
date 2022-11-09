@@ -4,7 +4,7 @@ import character.hero.Hero;
 import character.hero.levelUpBehaviour.WarriorLevelUp;
 
 public class SehanineMonnbow extends Hero {
-    SehanineMonnbow() {
+    public SehanineMonnbow() {
         levelUpBehaviour = new WarriorLevelUp(this);
         name = "Sehanine_Monnbow";
         MP = 600;

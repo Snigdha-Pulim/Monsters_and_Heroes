@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Exoskeletons;
 
 public class DocOck extends Monster {
-    public DocOck(int level) {
+    public DocOck() {
         super(6);
         name = "DocOck";
         base_damage = 600;

@@ -4,7 +4,7 @@ import character.hero.Hero;
 import character.hero.levelUpBehaviour.PaladinLevelUp;
 
 public class SehanineMoonbow extends Hero {
-    SehanineMoonbow(){
+    public SehanineMoonbow(){
         levelUpBehaviour=new PaladinLevelUp(this);
         name="Sehanine_Moonbow";
         MP=300;

@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Exoskeletons;
 
 public class StYeenoghu extends Monster {
-    public StYeenoghu(int level) {
+    public StYeenoghu() {
         super(9);
         name = "St-Yeenoghu";
         base_damage = 950;

@@ -4,7 +4,7 @@ import character.hero.Hero;
 import character.hero.levelUpBehaviour.WarriorLevelUp;
 
 public class MuammanDuathall extends Hero {
-    MuammanDuathall() {
+    public MuammanDuathall() {
         levelUpBehaviour = new WarriorLevelUp(this);
         name = "Muamman_Duathall";
         MP = 300;

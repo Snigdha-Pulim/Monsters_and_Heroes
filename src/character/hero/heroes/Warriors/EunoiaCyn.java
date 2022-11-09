@@ -4,7 +4,7 @@ import character.hero.Hero;
 import character.hero.levelUpBehaviour.WarriorLevelUp;
 
 public class EunoiaCyn extends Hero {
-    EunoiaCyn() {
+    public EunoiaCyn() {
         levelUpBehaviour = new WarriorLevelUp(this);
         name = "Eunoia_Cyn";
         MP = 400;

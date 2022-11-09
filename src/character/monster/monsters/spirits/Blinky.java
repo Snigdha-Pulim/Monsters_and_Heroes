@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Spirits;
 
 public class Blinky extends Monster {
-    public Blinky(int level) {
+    public Blinky() {
         super(1);
         name = "Blinky";
         base_damage = 450;

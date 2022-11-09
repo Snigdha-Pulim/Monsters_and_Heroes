@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Exoskeletons;
 
 public class BigBadWolf extends Monster {
-    public BigBadWolf(int level) {
+    public BigBadWolf() {
         super(1);
         name = "BigBad-Wolf";
         base_damage = 150;

@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Spirits;
 
 public class Rakkshasass extends Monster {
-    public Rakkshasass(int level) {
+    public Rakkshasass() {
         super(9);
         name = "Rakkshasass";
         base_damage = 550;

@@ -4,7 +4,7 @@ import character.hero.Hero;
 import character.hero.levelUpBehaviour.PaladinLevelUp;
 
 public class GarlGlittergold extends Hero {
-    GarlGlittergold() {
+    public GarlGlittergold() {
         levelUpBehaviour = new PaladinLevelUp(this);
         name = "Garl_Glittergold";
         MP = 100;

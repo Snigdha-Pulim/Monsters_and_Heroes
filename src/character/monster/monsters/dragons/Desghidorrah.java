@@ -4,7 +4,7 @@ import character.monster.Monster;
 import character.monster.favoredAttribute.Dragons;
 
 public class Desghidorrah extends Monster {
-    public Desghidorrah(int level) {
+    public Desghidorrah() {
         super(3);
         name = "Desghidorrah";
         base_damage = 300;
