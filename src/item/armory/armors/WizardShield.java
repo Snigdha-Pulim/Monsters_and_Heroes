@@ -1,4 +1,4 @@
-package item.armory.armories;
+package item.armory.armors;
 
 import item.armory.Armory;
 
@@ -6,7 +6,7 @@ public class WizardShield extends Armory {
     public WizardShield(){
         name="Wizard_Shield";
         cost=1200;
-        required_leve=10;
+        required_level=10;
         damage_reduction=1500;
     }
 }

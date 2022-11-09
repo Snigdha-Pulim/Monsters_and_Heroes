@@ -18,7 +18,7 @@ public class Hero extends Character {
     protected int MP;
     protected LevelUpBehaviour levelUpBehaviour;
     List<Item> inventory=new ArrayList<Item>();
-//int strength,int dexterity,int agility,int gold,int experience,String name
+
     public Hero(){
         super(1);
         attack=new AttackWithWeapon();

@@ -1,20 +1,20 @@
 package item.armory;
 
-import item.armory.armories.*;
+import item.armory.armors.*;
 
 public class ArmoryFactory {
 
-    public Armory getArmory(ArmoriesEnum armoriesEnum) {
-        switch (armoriesEnum){
-            case breastplate:
+    public static Armory getArmory(ArmorsEnum armorsEnum) {
+        switch (armorsEnum){
+            case Breastplate:
                 return new Breastplate();
-            case wizardShield:
+            case WizardShield:
                 return new WizardShield();
-            case fullBodyArmor:
+            case FullBodyArmor:
                 return new FullBodyArmor();
-            case guardianAngel:
+            case GuardianAngel:
                 return new GuardianAngel();
-            case platinumShield:
+            case PlatinumShield:
                 return new PlatinumShield();
             default:
                 return null;

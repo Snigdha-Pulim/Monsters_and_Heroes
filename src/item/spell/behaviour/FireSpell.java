@@ -1,6 +1,6 @@
 package item.spell.behaviour;
 
-import character.Monster;
+import character.monster.Monster;
 import item.spell.Spell;
 
 public class FireSpell implements SpellBehaviour{

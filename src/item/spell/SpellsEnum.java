@@ -1,5 +1,5 @@
 package item.spell;
 
 public enum SpellsEnum {
-    breathOfFire,flameTornado,heatWave,hellStorm,lavaComet,arcticStorm,frostBlizzard,iceBlade,snowCannon,electricArrows,lightningDagger,sparkNeedles,thunderBlast
+    BreathOfFire, FlameTornado, HeatWave, HellStorm, LavaComet, ArcticStorm, FrostBlizzard, IceBlade, SnowCannon, ElectricArrows, LightningDagger, SparkNeedles, ThunderBlast
 }

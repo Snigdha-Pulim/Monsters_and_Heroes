@@ -1,7 +1,6 @@
 package item.spell;
 
 import item.spell.spells.fireSpells.*;
-import spell.spells.fireSpells.*;
 import item.spell.spells.iceSpells.ArcticStorm;
 import item.spell.spells.iceSpells.FrostBlizzard;
 import item.spell.spells.iceSpells.IceBlade;
@@ -12,33 +11,33 @@ import item.spell.spells.lightningSpells.SparkNeedles;
 import item.spell.spells.lightningSpells.ThunderBlast;
 
 public class SpellFactory {
-    public Spell getSpell(SpellsEnum spellsEnum){
+    public static Spell getSpell(SpellsEnum spellsEnum){
         switch(spellsEnum){
-            case breathOfFire:
+            case BreathOfFire:
                 return new BreathOfFire();
-            case flameTornado:
+            case FlameTornado:
                 return new FlameTornado();
-            case heatWave:
+            case HeatWave:
                 return new HeatWave();
-            case hellStorm:
+            case HellStorm:
                 return new HellStorm();
-            case lavaComet:
+            case LavaComet:
                 return new LavaComet();
-            case arcticStorm:
+            case ArcticStorm:
                 return new ArcticStorm();
-            case frostBlizzard:
+            case FrostBlizzard:
                 return new FrostBlizzard();
-            case iceBlade:
+            case IceBlade:
                 return new IceBlade();
-            case snowCannon:
+            case SnowCannon:
                 return new SnowCannon();
-            case electricArrows:
+            case ElectricArrows:
                 return new ElectricArrows();
-            case lightningDagger:
+            case LightningDagger:
                 return new LightningDagger();
-            case sparkNeedles:
+            case SparkNeedles:
                 return new SparkNeedles();
-            case thunderBlast:
+            case ThunderBlast:
                 return new ThunderBlast();
             default:
                 return null;

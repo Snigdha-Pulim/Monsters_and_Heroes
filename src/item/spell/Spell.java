@@ -1,6 +1,6 @@
 package item.spell;
 
-import character.Monster;
+import character.monster.Monster;
 import item.Item;
 import item.spell.behaviour.SpellBehaviour;
 
