@@ -1,5 +1,10 @@
 package world.cells;
 
-public class MarketCell extends Cell {
+import world.cells.accessibilityBehaviour.Accessible;
 
+public class MarketCell extends Cell {
+    public MarketCell(){
+        accessibilityBahaviour=new Accessible(this);
+        backgroundColor= ColorsClass.MarketCellBackground;
+    }
 }

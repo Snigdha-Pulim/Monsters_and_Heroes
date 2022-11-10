@@ -1,5 +1,46 @@
 package character.hero;
 
 public enum HerosEnum {
-    Amaryllis_Astra, Caliber_Heist, Garl_Glittergold, Parzival, Sehanine_Moonbow, Skoraeus_Stonebones, Kalabar, Reign_Havoc, Reverie_Ashels, Rillifane_Rallathil,Segojan_Earthcaller,Skye_Soar,Eunoia_Cyn,Flandal_Steelskin,Gaerdal_Ironhand,Muamman_Duathall,Sehanine_Monnbow,Undefeated_Yoj
+    Amaryllis_Astra ("Paladins"),
+    Caliber_Heist ("Paladins"),
+    Garl_Glittergold ("Paladins"),
+    Parzival ("Paladins"),
+    Sehanine_Moonbow ("Paladins"),
+    Skoraeus_Stonebones ("Paladins"),
+    Kalabar ("Sorcerers"),
+    Reign_Havoc ("Sorcerers"),
+    Reverie_Ashels ("Sorcerers"),
+    Rillifane_Rallathil ("Sorcerers"),
+    Segojan_Earthcaller ("Sorcerers"),
+    Skye_Soar ("Sorcerers"),
+    Eunoia_Cyn ("Warriors"),
+    Flandal_Steelskin ("Warriors"),
+    Gaerdal_Ironhand ("Warriors"),
+    Muamman_Duathall ("Warriors"),
+    Sehanine_Monnbow ("Warriors"),
+    Undefeated_Yoj ("Warriors");
+
+    private final String heroType;
+
+    HerosEnum(String heroType) {
+        this.heroType = heroType;
+    }
+
+    public String getHeroType() {
+        return heroType;
+    }
+
+    public String getTextColor(){
+        if(heroType=="Warriors"){
+            //red
+            return "\u001B[31m";
+        }
+        else if(heroType=="Sorcerers"){
+            return "\u001B[34m";
+        }
+        else{
+            return "\u001B[35m";
+        }
+    }
+
 }
