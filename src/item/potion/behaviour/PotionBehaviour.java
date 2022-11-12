@@ -4,4 +4,5 @@ import character.hero.Hero;
 
 public interface PotionBehaviour {
     public void effect(Hero hero);
+    public String display();
 }

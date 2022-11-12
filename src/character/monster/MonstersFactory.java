@@ -9,7 +9,8 @@ import java.util.*;
 public class MonstersFactory {
     public static final List<Monster> monsters=new ArrayList<Monster>();
 
-    static {
+
+    public static Monster getMonster(int level) {
         monsters.add(new Natsunomeryu());
         monsters.add(new BigBadWolf());
         monsters.add(new Blinky());
@@ -42,9 +43,7 @@ public class MonstersFactory {
         monsters.add(new Exodia());
         monsters.add(new Merrshaullk());
         monsters.add(new Taltecuhtli());
-    }
-
-    public Monster getMonster(int level) {
+        if(level>10) level=10;
         Random r = new Random();
         List<Monster> tempMonsters=new ArrayList<Monster>();
         for (Monster monster : monsters){

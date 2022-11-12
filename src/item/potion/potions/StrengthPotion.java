@@ -9,6 +9,6 @@ public class StrengthPotion extends Potion {
         cost = 200;
         required_level = 1;
         attribute_increase = 75;
-        potionBehaviours.add(new StrengthPotionBehaviour());
+        potionBehaviours.add(new StrengthPotionBehaviour(this));
     }
 }

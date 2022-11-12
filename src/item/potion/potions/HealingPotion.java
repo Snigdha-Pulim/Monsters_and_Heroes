@@ -9,6 +9,6 @@ public class HealingPotion extends Potion {
         cost = 250;
         required_level = 1;
         attribute_increase = 100;
-        potionBehaviours.add(new HealthPotionBehaviour());
+        potionBehaviours.add(new HealthPotionBehaviour(this));
     }
 }

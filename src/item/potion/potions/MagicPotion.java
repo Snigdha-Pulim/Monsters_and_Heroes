@@ -9,6 +9,6 @@ public class MagicPotion extends Potion {
         cost = 350;
         required_level = 2;
         attribute_increase = 100;
-        potionBehaviours.add(new ManaPotionBehaviour());
+        potionBehaviours.add(new ManaPotionBehaviour(this));
     }
 }

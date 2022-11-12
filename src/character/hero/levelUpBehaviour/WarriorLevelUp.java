@@ -9,6 +9,13 @@ public class WarriorLevelUp implements LevelUpBehaviour{
     }
     @Override
     public void levelUp() {
-        System.out.println("leveling up for warriors");
+        hero.strength=hero.strength*11/10;
+        hero.dexterity=hero.dexterity*105/100;
+        hero.agility=hero.agility*11/10;
+    }
+
+    @Override
+    public String display() {
+        return "Warrior";
     }
 }

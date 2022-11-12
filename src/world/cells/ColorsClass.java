@@ -1,5 +1,6 @@
 package world.cells;
 
+//color strings
 public class ColorsClass {
     public static final String ANSI_YELLOW_BACKGROUND = "\u001B[43m";
     public static final String ANSI_BLUE_BACKGROUND = "\u001B[44m";

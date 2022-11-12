@@ -2,6 +2,7 @@ package item.weaponry;
 
 import item.weaponry.weapons.*;
 
+//factory/singleton class for weapons creation
 public class WeaponryFactory {
     public static Weaponry getWeaponry(WeaponsEnum weaponsEnum){
         switch (weaponsEnum){

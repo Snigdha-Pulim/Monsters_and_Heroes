@@ -1,21 +1,22 @@
 package character;
 
 import character.behavior.attack.Attack;
+import character.behavior.display.Display;
 
 public class Character {
-    protected String name;
-    protected int level;
-    protected int HP;
+    public String name;
+    public int level;
+    public int HP;
     protected Attack attack;
+    protected Display display;
     protected Character(int level){
         this.level=level;
         this.HP=level*100;
     }
-    public boolean dodge(){
-        System.out.println("will dodge according to its dodge value");
-        return true;
+    public String attack(Character character){
+        return attack.attack(character);
     }
-    public int attack(){
-        return attack.attack();
+    public void display(){
+        display.display();
     }
 }

@@ -1,8 +1,10 @@
 package item.spell.behaviour;
 
+import character.hero.Hero;
 import character.monster.Monster;
 import item.spell.Spell;
 
+//strategy pattern for different types of spells
 public class IceSpell implements SpellBehaviour {
     Spell spell;
 
@@ -11,7 +13,12 @@ public class IceSpell implements SpellBehaviour {
     }
 
     @Override
-    public void use(Monster M) {
-        System.out.println("reduces the damage of the target");
+    public void use(Monster monster , Hero hero) {
+        monster.base_damage=monster.base_damage*9/10;
+    }
+
+    @Override
+    public String display() {
+        return "Ice spell";
     }
 }

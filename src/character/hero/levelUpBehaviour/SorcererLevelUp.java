@@ -9,6 +9,13 @@ public class SorcererLevelUp implements LevelUpBehaviour{
     }
     @Override
     public void levelUp() {
-        System.out.println("Sorcerer LevelUp");
+        hero.strength=hero.strength*105/100;
+        hero.dexterity=hero.dexterity*11/10;
+        hero.agility=hero.agility*11/10;
+    }
+
+    @Override
+    public String display() {
+        return "Sorcerer";
     }
 }

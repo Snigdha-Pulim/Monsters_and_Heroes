@@ -12,9 +12,9 @@ public class MermaidTears extends Potion {
         cost = 850;
         required_level = 5;
         attribute_increase = 100;
-        potionBehaviours.add(new HealthPotionBehaviour());
-        potionBehaviours.add(new ManaPotionBehaviour());
-        potionBehaviours.add(new StrengthPotionBehaviour());
-        potionBehaviours.add(new AgilityPotionBehaviour());
+        potionBehaviours.add(new HealthPotionBehaviour(this));
+        potionBehaviours.add(new ManaPotionBehaviour(this));
+        potionBehaviours.add(new StrengthPotionBehaviour(this));
+        potionBehaviours.add(new AgilityPotionBehaviour(this));
     }
 }

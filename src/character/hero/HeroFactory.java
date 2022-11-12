@@ -4,6 +4,7 @@ import character.hero.heroes.Paladins.*;
 import character.hero.heroes.Sorcerers.*;
 import character.hero.heroes.Warriors.*;
 
+//hero factory
 public class HeroFactory {
     public static Hero getHero(HerosEnum herosEnum){
         switch (herosEnum){

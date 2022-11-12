@@ -9,6 +9,13 @@ public class PaladinLevelUp implements LevelUpBehaviour{
     }
     @Override
     public void levelUp() {
-        System.out.println("Paladin LevelUp");
+        hero.strength=hero.strength*11/10;
+        hero.dexterity=hero.dexterity*11/10;
+        hero.agility=hero.agility*105/100;
+    }
+
+    @Override
+    public String display() {
+        return "Paladin";
     }
 }

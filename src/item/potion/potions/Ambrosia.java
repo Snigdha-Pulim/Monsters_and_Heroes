@@ -9,11 +9,12 @@ public class Ambrosia extends Potion {
         cost = 1000;
         required_level = 8;
         attribute_increase = 150;
-        potionBehaviours.add(new ManaPotionBehaviour());
-        potionBehaviours.add(new StrengthPotionBehaviour());
-        potionBehaviours.add(new HealthPotionBehaviour());
-        potionBehaviours.add(new AgilityPotionBehaviour());
-        potionBehaviours.add(new DefensePotionBehaviour());
-        potionBehaviours.add(new DexterityPotionBehaviour());
+        //calling the required potion behaviours for the kind of potion
+        potionBehaviours.add(new ManaPotionBehaviour(this));
+        potionBehaviours.add(new StrengthPotionBehaviour(this));
+        potionBehaviours.add(new HealthPotionBehaviour(this));
+        potionBehaviours.add(new AgilityPotionBehaviour(this));
+        potionBehaviours.add(new DefensePotionBehaviour(this));
+        potionBehaviours.add(new DexterityPotionBehaviour(this));
     }
 }

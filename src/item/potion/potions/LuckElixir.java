@@ -9,6 +9,6 @@ public class LuckElixir extends Potion {
         cost = 500;
         required_level = 4;
         attribute_increase = 65;
-        potionBehaviours.add(new AgilityPotionBehaviour());
+        potionBehaviours.add(new AgilityPotionBehaviour(this));
     }
 }

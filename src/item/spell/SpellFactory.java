@@ -10,6 +10,7 @@ import item.spell.spells.lightningSpells.LightningDagger;
 import item.spell.spells.lightningSpells.SparkNeedles;
 import item.spell.spells.lightningSpells.ThunderBlast;
 
+//spell factory/singleton class
 public class SpellFactory {
     public static Spell getSpell(SpellsEnum spellsEnum){
         switch(spellsEnum){
