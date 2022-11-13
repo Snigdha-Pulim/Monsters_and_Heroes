@@ -8,7 +8,6 @@ public class HeroObserver {
     public Hero hero;
 
     public HeroObserver(Hero hero) {
-        System.out.println("in heroObserver");
         this.hero = hero;
     }
 
